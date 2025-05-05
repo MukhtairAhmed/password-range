@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+    
+    body{
+        background: tomato;
+    }
+    
+    #search{
+    text-align: center;
+    display: block;
+    width: 250px;
+    height: 100px;
+    background: #fff;
+    box-shadow: 2px 10px 10px rgba(0,0,0,0.1);
+    margin: 0 auto;
+    top: 250px;
+    border-radius: 10px;
+    position: relative;
+    }
+    
+    
+    #search input {
+        width: 200px;
+        text-align: center;
+        outline: none;
+        border: none;
+        border-radius: 20px;
+        background: rgb(235, 234, 232);
+        height: 25px;
+        position: relative;
+        top: 15px;
+    }
+    
+    
+    #res {
+        color: black;
+        font-size: 17px;
+        font-weight: bold;;
+        text-align: center;
+        position: relative;
+        top: 47px;
+    }
